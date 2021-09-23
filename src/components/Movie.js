@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default ({ id }) => {
+const Movie = ({ id }) => {
   return (
     <div>
       <Link to={`/${id}`} />
     </div>
   );
 };
+
+export default Movie;
